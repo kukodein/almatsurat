@@ -1,0 +1,118 @@
+@font-face {
+    font-family: UthmaniFont;
+    src: url('KFGQPCUthmanicScriptHAFS.otf');
+}
+
+@font-face {
+    font-family: kfc_naskh-webfont;
+    src: url('kfc_naskh-webfont.ttf');
+}
+
+.title {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; 
+    padding:7px 10px;font-size:13px;background-color:green;color:#ffffff;
+    border-radius: 30px;
+}
+
+.ayat {
+    display: table; /* keep the background color wrapped tight */
+    padding:5px 10px;font-size:10px;background-color:black;color:#ffffff;
+    border-radius: 20px;
+}
+
+.ayat-block {
+    padding-bottom: 15px;
+}
+.title-block {
+    padding-bottom: 30px;
+}
+
+.zikir-block {
+    padding-top:90px;
+    padding-bottom: 50px;
+    /* height: 200px; */
+    width: 55%;
+    margin: 0px auto 0px auto;
+}
+
+.text-quran {
+    font-family:'UthmaniFont';
+    /* font-family:'kfc_naskh-webfont'; */
+    
+    font-size:30px;
+}
+
+.text-doa {
+    /* font-family:'UthmaniFont'; */
+    font-family:'kfc_naskh-webfont';
+    
+    font-size:40;
+}
+
+.zikir-child {
+    padding-top:40px;
+    /* padding-bottom: 40px; */
+}
+.text-translate {
+    padding-top:15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* height: 30px; */
+    /* background-color: #fff; */
+    background-color: #014a59;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 50px;
+  }
+
+    .container {
+        height: 100%;
+    }
+
+    html, body {
+        height: 100%;
+    }
+
+    .bg-almatsurat {
+        background-color: #014a59;
+    }
+/* show border around full height container */
+/* .h-100 {
+    border: 1px dotted #cc2222; 
+} */
+
+@media only screen and (max-width: 768px) {
+    .zikir-block {
+        /* padding: 30; */
+        /* height: 200px; */
+        /* padding-top: 15px; */
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 45px;
+        margin: 0px auto 0px auto;
+    }
+
+    .text-quran {  
+        font-size:8vw;
+    }
+
+    .text-doa {
+        font-size:20px;
+    }
+
+    .taawudz {
+        font-size:6vw;
+    }
+
+    .taawudz-translate {
+        font-size:3vw;
+    }
+}
