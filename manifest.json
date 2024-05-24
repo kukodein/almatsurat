@@ -39,5 +39,14 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "categories": [
+    "books"
+  ],
+  "orientation": "portrait",
+  "dir": "ltr",
+  "display_override": [
+    "browser",
+    "window-controls-overlay"
   ]
 }
